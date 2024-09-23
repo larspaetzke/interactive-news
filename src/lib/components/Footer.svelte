@@ -6,6 +6,7 @@
         <p>Made with SvelteKit. ❤️</p>
         <p>This project is an attempt to bring a touch of unconventional creativity into an article, adding life and energy to enhance the information within the text. The goal is to use interactivity to underscore and complement the content in a dynamic way.</p>
         <p>I used SvelteKit, ScrollMagic, Google Fonts, Unsplash and ChatGPT.</p>
+        <p>You can find the full SvelteKit-project on <a target="_blank" href="https://github.com/larspaetzke/interactive-news">GitHub</a>.</p>
         <p>Photo by <a target="_blank" href="https://unsplash.com/de/@franceperles?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">france perles</a> on <a target="_blank" href="https://unsplash.com/de/fotos/grune-baume-umgeben-von-nebel-wizj0ppghD0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
     </div>
 </footer>
