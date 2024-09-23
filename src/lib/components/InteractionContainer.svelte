@@ -80,15 +80,8 @@
         max-width: 40rem;
         margin: 0 auto;
         padding: 1rem;
-        border: 1rem solid var(--gray-ground);
-        border-radius: 1rem;
-        background: rgba(255, 255, 255,var(--transparency));
+        background: var(--gray-ground);
         backdrop-filter: blur(0.2rem);
-    }
-    @media (prefers-color-scheme: dark) {
-        .interaction-container {
-            background: rgba(32,35,39,var(--transparency));
-        }
     }
     header {
         position: relative;
@@ -176,5 +169,11 @@
         .modal-overlay {
             background: rgba(22, 22, 22, 0.97);
         }
+    }
+    :global(.darkmode  .modal-overlay ) {
+        background: rgba(22, 22, 22, 0.97)!important;
+    }
+    :global(.lightmode  .modal-overlay ) {
+        background: rgba(244, 244, 244, 0.9)!important;
     }
 </style>

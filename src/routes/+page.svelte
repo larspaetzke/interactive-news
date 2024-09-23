@@ -2,10 +2,12 @@
     import { onMount } from 'svelte';
     
     import Banner from "$lib/components/Banner.svelte";
+    import Topbar from '$lib/components/Topbar.svelte';
     import Meta from "$lib/components/Meta.svelte";
     import Paragraph from "$lib/components/Paragraph.svelte";
     import Chart from "$lib/components/Chart.svelte";
     import Footer from "$lib/components/Footer.svelte";
+    
     import article from '$lib/data/article.json';
 
     let ScrollMagic;
@@ -24,6 +26,7 @@
     bind:ScrollMagic
     bind:scrollMagicController
 />
+<Topbar />
 <Meta
     author={article.author}
     date={article.date}

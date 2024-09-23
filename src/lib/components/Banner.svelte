@@ -29,7 +29,7 @@
             ></figure>
         </ParallaxContainer>
         <ParallaxContainer
-            style="position:absolute; bottom: 32%; left: 0; width: 100%;"
+            style="position:absolute; bottom: clamp(24%, 40vw, 32%); left: 0; width: 100%;"
         >
             <h1>
                 {#each title.split(' ') as word, wordIndex (word+wordIndex)}

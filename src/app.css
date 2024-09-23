@@ -6,7 +6,7 @@
     --white: #fff;
     --body-background: #fff;
     --black: #000;
-    --primary: #DF0029;
+    --primary: #023e28;
     --primary-text: #DF0029;
     --primary-ground: #f0758c;
     --gray: #BDBDBD;
@@ -22,16 +22,44 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-      --body-background: rgba(32,35,39,1);
-      --white: #eee;
-      --black: #363636;
-      --text-color: #eee;
-      --primary: #cc0025;
-      --gray: #a1a1a1;
-      --gray-ground: #363636;
-      --focus-outline: #006be6;
+        --body-background: rgba(32,35,39,1);
+        --white: #eee;
+        --black: #363636;
+        --text-color: #eee;
+        --primary: #1F4D3A;
+        --gray: #a1a1a1;
+        --gray-ground: #363636;
+        --focus-outline: #006be6;
     }
-  }
+}
+
+.darkmode {
+    --body-background: rgba(32,35,39,1);
+    --white: #eee;
+    --black: #363636;
+    --text-color: #eee;
+    --primary: #1F4D3A;
+    --gray: #a1a1a1;
+    --gray-ground: #363636;
+    --focus-outline: #006be6;
+}
+
+.lightmode {
+    --white: #fff;
+    --body-background: #fff;
+    --black: #000;
+    --primary: #023e28;
+    --gray: #BDBDBD;
+    --gray-ground: #f4f4f4;
+    --focus-outline: #1b85ff;
+    --text-color: #000;
+}
+
+/* text highlighting */
+::selection {
+    background-color: var(--primary);
+    color: var(--white);
+}
   
 html {
     font-size: 18px; /* 1rem = 18px */

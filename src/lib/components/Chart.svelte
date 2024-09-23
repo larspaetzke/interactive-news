@@ -61,7 +61,7 @@
         },
         {
             label: 'Forstår AI',
-            background: '#00B7B1',
+            background: '#5C4033',
             color: '#fff',
             percentage: [
                 {
@@ -100,7 +100,7 @@
         },
         {
             label: 'Skeptisk',
-            background: '#F0C30F',
+            background: '#6E6B5E',
             color: '#fff',
             percentage: [
                 {
@@ -215,7 +215,7 @@
             <div>
                 <Tooltip bounce={true} text="Klikk meg" visible={callToAction} />
                 {#if year < maxYear}
-                    <Button label="{year+1} &#10095;" mode="secondary" size="small" on:click={goToNextYear} />
+                    <Button label="{year+1} &#10095;" mode="primary" size="small" on:click={goToNextYear} />
                 {/if}
             </div>
         </nav>
@@ -272,11 +272,6 @@
         height: 1.7rem;
         margin: 0 0.6rem;
         flex-shrink: 0;
-    }
-    @media (prefers-color-scheme: dark) {
-        :global(.barchart .bar-wrapper svg, .barchart .bar-wrapper svg path) {
-            fill: #EEE!important;
-        }
     }
     nav {
         display: flex;
