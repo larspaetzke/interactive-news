@@ -26,7 +26,7 @@
 </script>
 
 <ParallaxContainer bind:parallax={parallax} {parallaxMovement} {parallaxOffset}>
-    <div class="interaction-container-wrapper" style="--transparency: {transparency};">
+    <div class="interaction-container-wrapper" style="--transparency: {transparency};" aria-hidden="true">
         <div
             class="interaction-container"
             in:fly|global="{{ x: 300, duration: transitionDurationIn, delay: transitionDelayIn, easing: quadOut }}"

@@ -80,6 +80,7 @@
     <!-- Runische Schrift -->
     {#if runicWord}
         <span
+            aria-hidden="true"
             class="runic"
             style="transition-delay: {delay}s; opacity: {runeVisible ? minOpacity : 0};"
         >{runicWord}</span>
