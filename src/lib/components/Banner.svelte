@@ -86,6 +86,7 @@
         text-align: center;
         width: calc(100% - 2rem);
         margin: auto;
+        text-shadow: 0 0 40px rgb(0, 0, 0);
     }
     header figure {
         margin: 0;
