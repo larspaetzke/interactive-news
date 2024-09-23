@@ -54,7 +54,7 @@
             <figure
                 class="layer2"
                 style="transform: translateY({windowScrollY/220}px)
-                scale({windowScrollY/6000 + 1})
+                scale({windowScrollY/2000 + 1})
                 ;"
             ></figure>
         </ParallaxContainer>
@@ -69,10 +69,10 @@
         background-size: cover;
         position: relative;
         overflow: hidden;
-        background-position: 10% center;
+        background-position: center;
     }
     .header-content {
-        transform: scale(1.2);
+        transform: scale(1.15);
         position: absolute;
         z-index: 1;
         width: 100%;
@@ -95,9 +95,9 @@
         width: 100%;
         height: 100%;
         background-size: cover;
-        transform-origin: bottom center;
+        transform-origin: center;
+        background-position: center;
         will-change: transform;
-        background-position: 10% center;
     }
     .layer1 {
         background-image: url('/img/bglayer1.png');
